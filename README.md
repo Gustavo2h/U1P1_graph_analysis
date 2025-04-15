@@ -176,5 +176,3 @@ _Imagens ilustrativas: IMAGEM 8, IMAGEM 9_
 A análise da rede de co-autoria do PPgEEC permitiu uma compreensão profunda dos padrões de colaboração entre autores ao longo do tempo, destacando o crescimento dos autores e das conexões, bem como as nuances das colaborações entre membros permanentes e outros colaboradores. Cada etapa da análise apresentou seus desafios, os quais foram superados com o auxílio de ferramentas modernas e abordagens iterativas para a modelagem dos dados.
 
 ---
-
-*Fique à vontade para complementar este README com mais detalhes, arquivos e visualizações conforme necessário.*
