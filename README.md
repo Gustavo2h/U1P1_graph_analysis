@@ -52,6 +52,7 @@ A criação dos códigos contou com o auxílio do Chat GPT a partir dos seguinte
 ```plaintext
 "Agora, preciso avaliar a distribuição do número de vizinhos e para isso preciso criar um histograma - função de densidade de probabilidade. Faça um gráfico no estilo Ridgeline Chart e considere o número de arestas para a cor do gráfico. Use a imagem enviada como referência para o gráfico."
 ```
+<img src="img/Ref1.png" alt="Imagem de referência 1" width="400" />
 
 ### Resultados e Observações
 
@@ -67,8 +68,9 @@ A criação dos códigos contou com o auxílio do Chat GPT a partir dos seguinte
 - **Desafio Técnico:**  
   - A criação do Ridgeline Chart foi um dos maiores desafios devido à complexidade do gráfico, exigindo a criação de um código específico com base em uma imagem de referência.
 
-_Imagem ilustrativa: IMAGEM 1_  
-_Imagem do histograma: IMAGEM 2_
+<img src="img/Figure_1.png" alt="Série temporal" width="400" />
+
+<img src="img/Figure_2.png" alt="Ridgeline Chart" width="400" />
 
 ---
 
@@ -98,6 +100,7 @@ Devido a restrições iniciais, um segundo _prompt_ foi utilizado para ajuste fi
 ```plaintext
 "Ajuste os grafos de forma que cada grafo seja plotado separadamente, aproveitando melhor o espaço (de forma que os vértices não fiquem tão amontoados) e destacando os top 5 vértices para cada grafo individualmente."
 ```
+<img src="img/Ref2.png" alt="Imagem de referência 2" width="400" />
 
 ### Resultados e Observações
 
@@ -105,7 +108,10 @@ Devido a restrições iniciais, um segundo _prompt_ foi utilizado para ajuste fi
 - Houve uma concentração de colaborações entre autores permanentes.
 - O tamanho dos vértices aumentou, refletindo o crescimento do número de vizinhos, especialmente entre os autores mais conectados.
 
-_Imagens ilustrativas dos grafos: IMAGEM 3, IMAGEM 4, IMAGEM 5, IMAGEM 6, IMAGEM 7_
+<img src="img/Figure_3.png" alt="Período de avaliação (2010-2012)" width="400" />
+<img src="img/Figure_4.png" alt="Período de avaliação (2013-2016)" width="400" />
+<img src="img/Figure_5.png" alt="Período de avaliação (2017-2020)" width="400" />
+<img src="img/Figure_6.png" alt="Período de avaliação (2021-2024)" width="400" />
 
 - **Desafio Técnico:**  
   - Especificar todos os requisitos simultaneamente para que o código atenda a todas as restrições foi um dos maiores desafios desta etapa.
@@ -151,7 +157,8 @@ Vértice com mais arestas: '7004192487' com grau 711
 - **Rede Ego:**
   - A análise da rede ego do vértice com o maior número de arestas revela um elevado número de conexões entre os vértices associados, indicando que os vizinhos do vértice central também possuem um forte nível de interconexão.
 
-_Imagens ilustrativas: IMAGEM 8, IMAGEM 9_
+<img src="img/Figure_7.png" alt="Grafo e sub-grafo" width="400" />
+<img src="img/Figure_8.png" alt="Ego Network" width="400" />
 
 - **Desafio Técnico:**  
   - Relacionar de forma clara e eficaz o subgrafo com o grafo geral e extrair informações da rede ego foram os principais desafios desta etapa.
