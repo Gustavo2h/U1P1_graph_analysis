@@ -29,6 +29,9 @@ Este repositório contém o projeto 1 da primeira unidade da disciplina de Algor
 
 O projeto tem como foco a análise de uma rede de co-autoria composta por dados reais do PPgEEC. Foram analisados aspectos temporais e estruturais da rede, considerando o comportamento dos autores e suas relações ao longo dos anos.
 
+Grupo : Gustavo Pereira de Carvalho
+              Matheus Bezerra Dantas Saraiva
+
 ---
 
 ## Primeira Análise
