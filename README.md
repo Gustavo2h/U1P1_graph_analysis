@@ -1,6 +1,8 @@
 # U1P1_graph_analysis
 Repositório criado para o primeiro projeto da primeira unidade da disciplina AED II 
 
+Grupo responsável : Gustavo Pereira de Carvalho e Matheus Bezerra Dantas Saraiva
+
 # Análise da Rede de Co-autoria do PPgEEC
 
 Este repositório contém o projeto 1 da primeira unidade da disciplina de Algoritmos e Estruturas de Dados II, que consiste na criação e análise de uma rede de co-autoria utilizando dados reais disponibilizados pelo PPgEEC.
@@ -28,8 +30,6 @@ Este repositório contém o projeto 1 da primeira unidade da disciplina de Algor
 ## Contexto do Projeto
 
 O projeto tem como foco a análise de uma rede de co-autoria composta por dados reais do PPgEEC. Foram analisados aspectos temporais e estruturais da rede, considerando o comportamento dos autores e suas relações ao longo dos anos.
-
-Grupo : Gustavo Pereira de Carvalho e Matheus Bezerra Dantas Saraiva
 
 ---
 
