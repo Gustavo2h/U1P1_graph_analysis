@@ -6,10 +6,10 @@ arquivo_geral = "avaliacao_geral/2010-2025.gexf"
 G = nx.read_gexf(arquivo_geral)
 print(f"Grafo geral carregado com {G.number_of_nodes()} vértices e {G.number_of_edges()} arestas.")
 
-# 2. Gerar o subgrafo contendo os vértices com grau ≥ 14
+# 2. Gerar o subgrafo contendo os vértices com grau ≥ 20
 nodos_filtrados = [n for n, grau in G.degree() if grau >= 20]
 G_sub = G.subgraph(nodos_filtrados)
-print(f"Subgrafo gerado com {G_sub.number_of_nodes()} vértices e {G_sub.number_of_edges()} arestas (vértices com grau >= 14).")
+print(f"Subgrafo gerado com {G_sub.number_of_nodes()} vértices e {G_sub.number_of_edges()} arestas (vértices com grau >= 20).")
 
 # 3. Calcular a densidade do grafo geral e do subgrafo
 densidade_geral = nx.density(G)
@@ -29,7 +29,7 @@ nx.draw_networkx_edges(G, pos_geral, edge_color="gray", alpha=0.5)
 plt.title("Grafo Geral (2010-2025)")
 plt.axis("off")
 
-# (b) Visualização do subgrafo (vértices com grau >= 14)
+# (b) Visualização do subgrafo (vértices com grau >= 20)
 plt.subplot(1, 2, 2)
 pos_sub = nx.spring_layout(G_sub, seed=42)
 nx.draw_networkx_nodes(G_sub, pos_sub, node_size=50, node_color="orange", alpha=0.8)
