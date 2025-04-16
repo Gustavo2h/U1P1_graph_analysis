@@ -142,7 +142,7 @@ Utilizando o Chat GPT, foi desenvolvido um código em Python com o seguinte _pro
 
 ```plaintext
 Grafo geral carregado com 2454 vértices e 26113 arestas.
-Subgrafo gerado com 633 vértices e 10391 arestas (vértices com grau >= 14).
+Subgrafo gerado com 633 vértices e 10391 arestas (vértices com grau >= 20).
 
 Densidade do grafo geral: 0.0087  
 Densidade do subgrafo: 0.0519
