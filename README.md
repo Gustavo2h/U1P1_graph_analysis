@@ -3,6 +3,8 @@ Repositório criado para o primeiro projeto da primeira unidade da disciplina AE
 
 Grupo responsável : Gustavo Pereira de Carvalho e Matheus Bezerra Dantas Saraiva
 
+Apresentação: 
+
 # Análise da Rede de Co-autoria do PPgEEC
 
 Este repositório contém o projeto 1 da primeira unidade da disciplina de Algoritmos e Estruturas de Dados II, que consiste na criação e análise de uma rede de co-autoria utilizando dados reais disponibilizados pelo PPgEEC.
